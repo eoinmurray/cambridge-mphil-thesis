@@ -1,0 +1,91 @@
+
+\documentclass[12pt, oneside]{book}
+\usepackage[tt]{titlepic}
+\usepackage{fancyhdr}
+\usepackage[pdftex]{graphicx}
+\usepackage[small,bf]{caption}
+\usepackage{amsmath}
+\usepackage{subcaption}
+\usepackage[section]{placeins}
+\usepackage{afterpage}
+
+\usepackage[top=1in, bottom=1in, inner=1in,outer=1in]{geometry}
+\usepackage{import}
+\usepackage{dcolumn}
+\usepackage{bm}
+\usepackage{subcaption}
+
+\usepackage{subfig}
+\usepackage{cleveref}
+\captionsetup[subfigure]{subrefformat=simple,labelformat=simple}
+
+\linespread{1.5} \setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}%%%%<---
+
+\begin{document}
+
+\title{} \titlepic{\subimport{title/}{titlepage.tex}} \author{} \date{}
+\maketitle
+
+\begin{center} \large \textbf{Acknowledgements} \end{center}
+
+This project was very much a team effort and I would first like to thank all the
+members of the integration project team. Thanks to David Ellis for designing and
+fabricating the devices, the devices were fabricated at the Cavendish and the
+e-beam lithography was undertaken by Jonathan Griffiths. Thanks to Thomas Meany
+for packaging the hybrid device and taking measurements, Frederick Floether for
+designing the devices, Jamie Lee for assisting with measurements and to Anthony
+Bennet for designing and taking measurements. Thanks also for Ian Farrer and the
+staff at the Cavendish for growing wafers. Thanks to Andrew Shields and David
+Ritchie for giving me this opportunity to study for this PhD. This project was
+supported by the Initial Training Network PICQUE under the European Commission
+Marie Curie Actions.
+
+\newpage \begin{center} \large \textbf{Abstract} \end{center}
+
+Fundamental to the future of quantum photonics is the ability to create
+integrated devices. An integrated chip offers intrinsic stability and
+compactness. This makes it inherently more scalable than a bulk optics approach.
+Quantum dots (QDs) are a developing on-chip source of single photons. This
+project aims to take quantum dots embedded in a III-V material and combine them
+with integrated waveguide components. The InAs QDs are grown in GaAs substrate
+and are bonded to a SiON based waveguide platform. This approach has potential
+for realization of an efficient coupling between the quantum dots and the
+waveguides and then on-chip manipulation of the emitted photons. In this report,
+the results thus far will be presented and proposals for future designs will be
+discussed.
+
+\newpage \large\textbf{Publications resulting from this work}
+
+\small \textbf{Quantum photonics hybrid integration platform} \newline
+\textbf{E. Murray}, D. J. P. Ellis, T. Meany, F. F. Floether, J. P. Lee, J. P.
+Griffiths, G. A. C. Jones, I. Farrer, D. A. Ritchie, A. J. Bennett, and A. J.
+Shields. \newline Applied Physics Letters 107.17 (2015): 171108.
+
+\small \textbf{Cavity-enhanced coherent light scattering from a quantum dot} A.
+J. Bennett, J. P. Lee, D. J. P. Ellis, T. Meany, \textbf{E. Murray}, F. F.
+Floether, J. P. Griffiths, I. Farrer, D. A. Ritchie, and A. J. Shields. \newline
+arXiv pre-print: 1508.01637v1
+
+\large\textbf{Conferences}
+
+\small \textbf{Quantum dots for quantum information science}, \newline
+\textbf{E. Murray} \newline PICQUE Integrated Quantum Photonics Workshop, 7-9
+January 2015, Oxford, UK
+
+\small \textbf{Quantum photonics hybrid integration platform} \newline
+\textbf{E. Murray}, D. J. P. Ellis, T. Meany, F. F. Floether, J. P. Lee, J. P.
+Griffiths, G. A. C. Jones, I. Farrer, D. A. Ritchie, A. J. Bennett, and A. J.
+Shields. \newline \textbf{Best talk awarded} PICQUE Roma Scientific School, 6-10
+July 2015, Rome, Italy
+
+\newpage \tableofcontents
+
+\subimport{chapter_1/}{chap1.tex}
+%\subimport{chapter_2/}{chap2.tex}
+%\subimport{chapter_3/}{chap3.tex}
+%\subimport{chapter_4/}{chap4.tex}
+
+\bibliographystyle{unsrt} \bibliography{bibliography}{}
+
+\end{document}
