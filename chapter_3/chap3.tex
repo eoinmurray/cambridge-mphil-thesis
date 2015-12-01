@@ -102,42 +102,6 @@ beam splitter allows on chip Hanbury Brown and Twiss correlations to verify the
 single photon nature of the light source. The MZ can be tuned to modulate the
 light, allowing routing of the light into either or both output arms.
 
-\subsection{Simulations and design}
-
-\begin{figure}[h!] \begin{center}
-\includegraphics[width=0.8\textwidth]{images/sim.png} \caption{Finite difference
-time domain simulation of a QD dipole emitting in a cavity and the emission
-being guided by the SiON core.} \label{fig:sim} \end{center} \end{figure}
-
-As described in Chapter 2 the characteristics of the device were simulated by
-using the finite difference time domain package MEEP \cite{oskooi2010meep,
-mandelshtam1997harmonic}. A $\hat{z}$ oriented dipole emitter was placed in the
-centre of the cavity spacer aligned to the centre of the waveguide. A perfectly
-matched layer was placed at the edges of the simulation domain to absorb all
-light and prevent unwanted reflections. The $\hat{z}$ component of the electric
-field is shown in Figure \ref{fig:sim}. There is a clear emission pattern along
-the waveguide core. The efficiency of this device was also determined
-theoretically. A bounding box which records the Fourier transformed fields was
-placed at the edge of the domain and just inside the perfectly matched layer.
-
-From this bounding box the total power spectrum is recorded when the system is
-excited with a short Gaussian pulse. Another flux plane is placed across the
-waveguide. The waveguide core size was 1.6 $\mu \mathrm{m}$ and the far field
-propagating mode has a spatial $1/e$ width of 1.88 $\mu \mathrm{m}$ which was
-chosen as the size of the waveguide flux plane. It is placed sufficiently far
-from the surface of the III-V so that only the waveguide propagating mode is
-measured. Taking the ratio of the light propagating in the waveguide to the
-total in the bounding box gives the efficiency of the hybrid collection system.
-At the centre of the cavity wavelength the efficiency is 2.8\%. For a QD
-emitting into free space with no cavity a collection of 0.5\% can be expected
-into a 0.5 NA objective. When the QD is in a cavity the efficiency can rise to
-7\% depending on the number of mirror repeats and the numerical aperature of the
-collection objective. For the device presented here the numerical aperature of
-the waveguide is 0.35 and the III-V sample has a distributed bragg reflector
-cavity with 12 repeats below the QD layer and 2 repeats above. This efficiency
-of 2.8\% is almost exactly in line with what has previously been estimated for
-free space collection with the same NA and same number of repeats
-\cite{bennett2006single}.
 
 \subsection{Measured results}
 

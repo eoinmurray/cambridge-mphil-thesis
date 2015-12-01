@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.27)  17 NOV 2015 16:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.27)  1 DEC 2015 16:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -420,13 +420,22 @@ Package pdftex.def Info: chapter_1/images/wg_devices.pdf used on input line 213
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [11 <./chapter_1/images/2d_waveguide.pdf>] [12 <./chapter_1/images/wg_devices.p
-df>] [13]) (./thesis.bbl [14] [15
+df>] [13]
+
+LaTeX Warning: Citation `hongoumandel' on page 14 undefined on input line 291.
+
+[14]
+
+LaTeX Warning: Citation `crespi2012measuring' on page 15 undefined on input lin
+e 348.
+
+) (./thesis.bbl [15] [16] [17
 
 ]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [16])
+ [18])
 
 Package caption Warning: Unused \captionsetup[sub] on input line 17.
 See the caption package documentation for explanation.
@@ -435,16 +444,19 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[subfigure] on input line 20.
 See the caption package documentation for explanation.
 
-[17] (./thesis.aux)
+[19] (./thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5715 strings out of 494501
- 96741 string characters out of 6167029
+ 5717 strings out of 494501
+ 96776 string characters out of 6167029
  176816 words of memory out of 5000000
- 8897 multiletter control sequences out of 15000+600000
+ 8899 multiletter control sequences out of 15000+600000
  17109 words of font info for 59 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  38i,6n,44p,399b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -462,10 +474,10 @@ type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2015basic/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015basic/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015basic/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (18 pages, 519657 bytes).
+Output written on thesis.pdf (20 pages, 523852 bytes).
 PDF statistics:
- 218 PDF objects out of 1000 (max. 8388607)
- 145 compressed objects within 2 object streams
+ 225 PDF objects out of 1000 (max. 8388607)
+ 150 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 
