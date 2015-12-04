@@ -82,16 +82,21 @@ Robert~H Hadfield.
 \newblock Single-photon detectors for optical quantum information applications.
 \newblock {\em Nature photonics}, 3(12):696--705, 2009.
 
+\bibitem{brown1956test}
+R~Hanbury Brown and RQ~Twiss.
+\newblock A test of a new type of stellar interferometer on sirius.
+\newblock {\em Nature}, 178(4541):1046--1048, 1956.
+
 \bibitem{saleh1991fundamentals}
 Bahaa~EA Saleh and Malvin~Carl Teich.
 \newblock {\em Fundamentals of photonics}, volume~22.
 \newblock Wiley New York, 1991.
 
-\bibitem{cnotpooley}
-M.~A. Pooley, D.~J.~P. Ellis, R.~B. Patel, A.~J. Bennett, K.~H.~A. Chan,
-  I.~Farrer, D.~A. Ritchie, and A.~J. Shields.
+\bibitem{pooley2012controlled}
+MA~Pooley, DJP Ellis, RB~Patel, AJ~Bennett, KHA Chan, I~Farrer, DA~Ritchie, and
+  AJ~Shields.
 \newblock Controlled-not gate operating with single photons.
-\newblock {\em Applied Physics Letters}, 100(21), 2012.
+\newblock {\em Applied Physics Letters}, 100(21):211103, 2012.
 
 \bibitem{varnava2015entangled}
 C~Varnava, RM~Stevenson, J~Nilsson, J~Skiba-Szymanska, B~Dzur{\v{n}}{\'a}k,
@@ -114,5 +119,32 @@ AJ~Bennett, JP~Lee, DJP Ellis, T~Meany, E~Murray, F~Floether, JP~Griffths,
   I~Farrer, DA~Ritchie, and AJ~Shields.
 \newblock Cavity-enhanced coherent light scattering from a quantum dot.
 \newblock {\em arXiv preprint arXiv:1508.01637}, 2015.
+
+\bibitem{afek2010high}
+Itai Afek, Oron Ambar, and Yaron Silberberg.
+\newblock High-noon states by mixing quantum and classical light.
+\newblock {\em Science}, 328(5980):879--881, 2010.
+
+\bibitem{giovannetti2011advances}
+Vittorio Giovannetti, Seth Lloyd, and Lorenzo Maccone.
+\newblock Advances in quantum metrology.
+\newblock {\em Nature Photonics}, 5(4):222--229, 2011.
+
+\bibitem{PhysRevLett.107.083601}
+Jaewoo Joo, William~J. Munro, and Timothy~P. Spiller.
+\newblock Quantum metrology with entangled coherent states.
+\newblock {\em Phys. Rev. Lett.}, 107:083601, Aug 2011.
+
+\bibitem{hong1987measurement}
+CK~Hong, ZY~Ou, and Leonard Mandel.
+\newblock Measurement of subpicosecond time intervals between two photons by
+  interference.
+\newblock {\em Physical Review Letters}, 59(18):2044, 1987.
+
+\bibitem{crespi2012measuring}
+Andrea Crespi, Mirko Lobino, Jonathan~CF Matthews, Alberto Politi, Chris~R
+  Neal, Roberta Ramponi, Roberto Osellame, and Jeremy~L O’Brien.
+\newblock Measuring protein concentration with entangled photons.
+\newblock {\em Applied Physics Letters}, 100(23):233704, 2012.
 
 \end{thebibliography}

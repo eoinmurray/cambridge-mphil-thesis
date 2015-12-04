@@ -6,3 +6,4 @@
 \contentsline {subsection}{\numberline {1.2.2}Directional couplers and Mach Zehnder interferometers}{12}
 \contentsline {section}{\numberline {1.3}Integrated quantum devices}{13}
 \contentsline {subsection}{\numberline {1.3.1}NOON states and quantum sensing}{14}
+\contentsline {section}{\numberline {1.4}Conclusion}{16}
