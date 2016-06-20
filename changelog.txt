@@ -105,7 +105,50 @@ Schematic of HBT experiment taking place on the Hybrid chip. The light from
 ports 1 and 2 of the hybrid chip is collected by the V-groove array and sent
 towards transmission gratings in order to spectrally isolate the QD light.  The
 light in both channels then impinge on APDs. The APD clicks are then correlated
-on a timeing card.
+on a timing card.
+
+Figure 3.1
+
+Finite difference time domain simulation of a QD dipole emitting in a cavity and
+the emission being guided by the SiON core.
+
+Finite difference time domain simulation of a QD dipole emitting in a cavity and
+the emission being guided by the SiON core. The $\hat{z}$ component of the
+electro-magnetic field is  clearly seen to propagate along the waveguide core.
+
+Figure 3.5
+
+Photograph of an example bonded device.
+
+Photograph of an example bonded device. The III-V chip is bonded orthogonally to
+the  SiON chip (top-right) which is in turn bonded to a six channel V-groove
+array (bottom-left of chip). The nichrome channels allow a phase-varying heating
+current to be applied to the MZ's. The structure is glued to a copper block is
+placed in a cryostat for the duration of experiments.
+
+Figure 3.6
+
+Schematic of the experiment.
+
+Schematic of the experiment. The laser light travels from port 3 (highlighted in
+orange) exciting QDs in the III-V chip. The QD light (path highlighted in red)
+enters a heater tuned MZI. The QD light is collected by V-grooves and sent
+through transmission gratings towards APDs in order to do correlations.
+
+Figure 3.9
+
+Counts measured as a function of time over 12 hours.
+
+Counts measured as a function of time over 12 hours. The hybrid chip is stable
+over long periods of time and needs no drifting correction.
+
+Figure 3.11
+
+The outputs a MZI arm is shown by the black triangles, the solid black line is a
+fit to the data. The red line is the calculated phase as a function of voltage.
+
+The output of a MZI arm is shown by the black triangles, the solid black line is a
+fit to the data. The red line is the calculated phase as a function of voltage.
 
 ## Check with Toshiba the possibility that I can add more details to the axis
 ## graphs (changing to arbitrary units to an actual count rate).

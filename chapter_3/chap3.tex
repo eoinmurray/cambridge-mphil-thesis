@@ -40,9 +40,11 @@ result of work which has been recently published \cite{murrayEHybrid}.
 \section{Simulations and design}
 
 \begin{figure}[h!] \begin{center}
-\includegraphics[width=0.8\textwidth]{images/sim.png} \caption{Finite difference
-time domain simulation of a QD dipole emitting in a cavity and the emission
-being guided by the SiON core.} \label{fig:sim} \end{center} \end{figure}
+\includegraphics[width=0.8\textwidth]{images/sim.png} \caption{
+Finite difference time domain simulation of a QD dipole emitting in a cavity and
+the emission being guided by the SiON core. The $\hat{z}$ component of the
+electro-magnetic field is  clearly seen to propagate along the waveguide core.
+} \label{fig:sim} \end{center} \end{figure}
 
 The characteristics of the device were simulated by using the finite difference
 time domain package MEEP \cite{oskooi2010meep, mandelshtam1997harmonic}. A
@@ -87,7 +89,7 @@ where $I$ is the input laser intensity, $c$ is the coupling coefficient related
 to the waveguide index contrast, the separation between the guides and the
 wavelength. These equations allow the design of DCs with a well defined coupling
 ratio by changing the interaction length $L$. To test this a set of chips were
-fabricated with DCs of increasing interaction length $L$ and the coupling ration
+fabricated with DCs of increasing interaction length $L$ and the coupling ratio
 was measured for each. The results are shown in Figure \ref{fig:dc_length}. The
 differing black and red squares and circles are simply different chips from the
 same wafer. The red line is a $\sin^2$ fit to the data. The results show good
@@ -113,7 +115,7 @@ wavelength and monitoring the coupling ratio, this result is shown in Figure
 
 \begin{figure}[h!] \begin{center}
 \includegraphics[width=0.7\textwidth]{images/W009C01_DV_WV_processing.png}
-\caption{Measured DC coupling ration vs laser wavelength for a device. The red
+\caption{Measured DC coupling ratio vs laser wavelength for a device. The red
 line is a linear fit to the data.} \label{fig:dc_wv} \end{center} \end{figure}
 
 As is seen in Figure \ref{fig:dc_wv} , there is a linear decrease in the
@@ -150,8 +152,13 @@ capable of operating on the quantum light emitted by the QDs.
 \section{Hybrid integrated devices}
 
 \begin{figure}[h!] \begin{center}
-\includegraphics[width=0.7\textwidth]{images/h2.jpg} \caption{Photograph of an
-example bonded device.} \label{fig:photo} \end{center} \end{figure}
+\includegraphics[width=0.7\textwidth]{images/h2.jpg} \caption{
+Photograph of an example bonded device. The III-V chip is bonded orthogonally to
+the  SiON chip (top-right) which is in turn bonded to a six channel V-groove
+array (bottom-left of chip). The nichrome channels allow a phase-varying heating
+current to be applied to the MZ's. The structure is glued to a copper block is
+placed in a cryostat for the duration of experiments.
+} \label{fig:photo} \end{center} \end{figure}
 
 Figure \ref{fig:photo} shows a photograph of an example device. A strip of
 microcavity wafer containing QDs is bonded to one end of the SiON waveguide
@@ -165,8 +172,12 @@ to the waveguides for collection of photons and the device is cooled to 4K for
 the duration of the experiment.
 
 \begin{figure}[h!] \begin{center}
-\includegraphics[width=0.8\textwidth]{images/hyb.png} \caption{Schematic of the
-experiment.} \label{fig:schem} \end{center} \end{figure}
+\includegraphics[width=0.8\textwidth]{images/hyb.png} \caption{
+Schematic of the experiment. The laser light travels from port 3 (highlighted in
+orange) exciting QDs in the III-V chip. The QD light (path highlighted in red)
+enters a heater tuned MZI. The QD light is collected by V-grooves and sent
+through transmission gratings towards APDs in order to do correlations.
+} \label{fig:schem} \end{center} \end{figure}
 
 Figure \ref{fig:schem} shows the optical schematic of the experiments. A single
 channel delivers laser light. The QD light is returned through the MZI and
@@ -175,8 +186,9 @@ For time resolved experiments transmission gratings are used to spectrally
 filter the emission before sending the light to avalanche photodiodes.
 
 \begin{figure}[h!] \begin{center}
-\includegraphics[width=0.45\textwidth]{images/spec.png} \caption{Spectrum of a
-quantum dot from both output ports of the device indicated in black and red.} \label{fig:spec} \end{center} \end{figure}
+\includegraphics[width=0.45\textwidth]{images/spec.png} \caption{
+Spectrum of a quantum dot from both output ports of the device indicated in black and red.
+} \label{fig:spec} \end{center} \end{figure}
 
 The integrated device is fixed and there is no freedom to analyse different QDs
 on the III-V sample once the bonding is complete. This creates stability and no
@@ -203,8 +215,10 @@ structure splitting typically seen in a neutral exciton
 \cite{bayer2002fine,gammon1996fine} so it is likely charged.
 
 \begin{figure}[h!] \begin{center}
-\includegraphics[width=0.45\textwidth]{images/stability.png} \caption{Counts
-measured as a function of time over 12 hours.} \label{fig:stab} \end{center}
+\includegraphics[width=0.45\textwidth]{images/stability.png} \caption{
+Counts measured as a function of time over 12 hours. The hybrid chip is stable
+over long periods of time and needs no drifting correction.
+} \label{fig:stab} \end{center}
 \end{figure}
 
 To verify the single photon nature of the QD emission, a Hanbury Brown and Twiss
@@ -240,9 +254,10 @@ of the detectors and timing system. The $g^{(2)}(0)$ was taken from the
 deconvoluted to be 0.09.
 
 \begin{figure}[h!] \centering
-\includegraphics[width=0.6\textwidth]{images/dj_oneport.png} \caption{The
-outputs a MZI arm is shown by the black triangles, the solid black line is a fit
-to the data. The red line is the calculated phase as a function of voltage.}
+\includegraphics[width=0.6\textwidth]{images/dj_oneport.png} \caption{
+The output of a MZI arm is shown by the black triangles, the solid black line is a
+fit to the data. The red line is the calculated phase as a function of voltage.
+}
 \label{fig:modul} \end{figure}
 
 The active modulation of the MZI was tested on the single photon source. A
