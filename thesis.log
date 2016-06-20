@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.27)  4 DEC 2015 16:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.27)  20 JUN 2016 20:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -222,20 +222,7 @@ Package: subfig 2005/06/28 ver: 1.3 subfig package
 Package: cleveref 2013/12/28 v0.19 Intelligent cross-referencing
 Package cleveref Info: `subfig' support loaded on input line 2983.
 )
-(./thesis.aux
-
-LaTeX Warning: Label `eqn:nummodes' multiply defined.
-
-
-LaTeX Warning: Label `eqn:nummodes@cref' multiply defined.
-
-
-LaTeX Warning: Label `eqn:nummodes' multiply defined.
-
-
-LaTeX Warning: Label `eqn:nummodes@cref' multiply defined.
-
-)
+(./thesis.aux)
 \openout1 = `thesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -250,7 +237,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
- (/usr/local/texlive/2015basic/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2015basic/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count108
 \scratchdimen=\dimen132
@@ -360,105 +348,222 @@ title/images/cam_logo.png>] [1] [2] [3]
 \tf@toc=\write3
 \openout3 = `thesis.toc'.
 
- (./chapter_1/chap1.tex [4
+ (./chapter_3/chap3.tex [4
 
 ]
 Chapter 1.
+
+LaTeX Warning: Citation `schwagmann2011chip' on page 5 undefined on input line 
+6.
+
+
+LaTeX Warning: Citation `kalliakos2014plane' on page 5 undefined on input line 
+8.
+
+
+LaTeX Warning: Citation `reithmaier2013chip' on page 5 undefined on input line 
+10.
+
+
+LaTeX Warning: Citation `prtljaga2014' on page 5 undefined on input line 11.
+
+
+LaTeX Warning: Citation `jons2014monolithic' on page 5 undefined on input line 
+11.
+
+
+LaTeX Warning: Citation `meany2014hybrid' on page 5 undefined on input line 13.
+
+
+
+LaTeX Warning: Citation `claudon2010highly' on page 5 undefined on input line 2
+9.
+
+
+LaTeX Warning: Citation `munsch2013dielectric' on page 5 undefined on input lin
+e 29.
+
 [5
 
-] <chapter_1/images/estructure.pdf, id=29, 722.7pt x 209.78375pt>
-File: chapter_1/images/estructure.pdf Graphic file (type pdf)
-
-<use chapter_1/images/estructure.pdf>
-Package pdftex.def Info: chapter_1/images/estructure.pdf used on input line 46.
-
-(pdftex.def)             Requested size: 469.75502pt x 136.36101pt.
- [6 <./chapter_1/images/estructure.pdf>]
-<chapter_1/images/qd_photon.pdf, id=48, 421.575pt x 140.525pt>
-File: chapter_1/images/qd_photon.pdf Graphic file (type pdf)
-
-<use chapter_1/images/qd_photon.pdf>
-Package pdftex.def Info: chapter_1/images/qd_photon.pdf used on input line 65.
-(pdftex.def)             Requested size: 469.75502pt x 156.58711pt.
- [7 <./chapter_1/images/qd_photon.pdf>]
-<chapter_1/images/thesis_planar_reflection.pdf, id=71, 546.04pt x 253.94875pt>
-File: chapter_1/images/thesis_planar_reflection.pdf Graphic file (type pdf)
-
-<use chapter_1/images/thesis_planar_reflection.pdf>
-Package pdftex.def Info: chapter_1/images/thesis_planar_reflection.pdf used on 
-input line 114.
-(pdftex.def)             Requested size: 375.80544pt x 174.77919pt.
- [8 <./chapter_1/images/thesis_planar_reflection.pdf>]
-<chapter_1/images/mode.pdf, id=94, 516.23805pt x 330.11612pt>
-File: chapter_1/images/mode.pdf Graphic file (type pdf)
-
-<use chapter_1/images/mode.pdf>
-Package pdftex.def Info: chapter_1/images/mode.pdf used on input line 149.
-(pdftex.def)             Requested size: 375.80544pt x 240.31786pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[9] [10 <./chapter_1/images/mode.pdf>]
-<chapter_1/images/2d_waveguide.pdf, id=128, 319.1925pt x 245.91875pt>
-File: chapter_1/images/2d_waveguide.pdf Graphic file (type pdf)
-
-<use chapter_1/images/2d_waveguide.pdf>
-Package pdftex.def Info: chapter_1/images/2d_waveguide.pdf used on input line 1
-91.
-(pdftex.def)             Requested size: 234.8775pt x 180.96011pt.
-
-<chapter_1/images/wg_devices.pdf, id=129, 211.79124pt x 159.59625pt>
-File: chapter_1/images/wg_devices.pdf Graphic file (type pdf)
-
-<use chapter_1/images/wg_devices.pdf>
-Package pdftex.def Info: chapter_1/images/wg_devices.pdf used on input line 213
-.
-(pdftex.def)             Requested size: 328.82707pt x 247.79776pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[11 <./chapter_1/images/2d_waveguide.pdf>] [12 <./chapter_1/images/wg_devices.p
-df>] [13] [14] <chapter_1/images/noon.pdf, id=165, 479.7925pt x 185.69376pt>
-File: chapter_1/images/noon.pdf Graphic file (type pdf)
-
-<use chapter_1/images/noon.pdf>
-Package pdftex.def Info: chapter_1/images/noon.pdf used on input line 323.
-(pdftex.def)             Requested size: 375.80544pt x 145.44974pt.
- [15 <./chapter_1/images/noon.pdf>])
-(./thesis.bbl [16] [17
-
 ]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [18]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
-)
 
-Package caption Warning: Unused \captionsetup[sub] on input line 17.
-See the caption package documentation for explanation.
+LaTeX Warning: Citation `murrayEHybrid' on page 6 undefined on input line 39.
+
+<chapter_3/images/sim.png, id=29, 536.0025pt x 353.32pt>
+File: chapter_3/images/sim.png Graphic file (type png)
+
+<use chapter_3/images/sim.png>
+Package pdftex.def Info: chapter_3/images/sim.png used on input line 43.
+(pdftex.def)             Requested size: 375.80544pt x 247.72127pt.
 
 
-Package caption Warning: Unused \captionsetup[subfigure] on input line 20.
-See the caption package documentation for explanation.
+LaTeX Warning: Citation `oskooi2010meep' on page 6 undefined on input line 48.
 
-[19] (./thesis.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Citation `mandelshtam1997harmonic' on page 6 undefined on input 
+line 48.
+
+[6 <./chapter_3/images/sim.png>]
+
+LaTeX Warning: Citation `bennett2006single' on page 7 undefined on input line 7
+5.
+
+[7] <chapter_3/images/W008_DC_processing.png, id=42, 578.16pt x 289.08pt>
+File: chapter_3/images/W008_DC_processing.png Graphic file (type png)
+
+<use chapter_3/images/W008_DC_processing.png>
+Package pdftex.def Info: chapter_3/images/W008_DC_processing.png used on input 
+line 101.
+(pdftex.def)             Requested size: 328.82707pt x 164.4112pt.
+
+<chapter_3/images/W009C01_DV_WV_processing.png, id=43, 578.16pt x 289.08pt>
+File: chapter_3/images/W009C01_DV_WV_processing.png Graphic file (type png)
+
+<use chapter_3/images/W009C01_DV_WV_processing.png>
+Package pdftex.def Info: chapter_3/images/W009C01_DV_WV_processing.png used on 
+input line 115.
+(pdftex.def)             Requested size: 328.82707pt x 164.4112pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+<chapter_3/images/W010_C06_phase_voltage_MZ1_5_5_6.png, id=44, 433.62pt x 289.0
+8pt>
+File: chapter_3/images/W010_C06_phase_voltage_MZ1_5_5_6.png Graphic file (type 
+png)
+ <use chapter_3/images/W010_C06_phase_voltage_MZ1_5_5_6.png>
+Package pdftex.def Info: chapter_3/images/W010_C06_phase_voltage_MZ1_5_5_6.png 
+used on input line 126.
+(pdftex.def)             Requested size: 328.82707pt x 219.22668pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `matthews2009manipulation' on page 8 undefined on input
+ line 140.
+
+[8 <./chapter_3/images/W008_DC_processing.png>] [9 <./chapter_3/images/W009C01_
+DV_WV_processing.png> <./chapter_3/images/W010_C06_phase_voltage_MZ1_5_5_6.png>
+] <chapter_3/images/h2.jpg, id=54, 1462.46375pt x 909.3975pt>
+File: chapter_3/images/h2.jpg Graphic file (type jpg)
+
+<use chapter_3/images/h2.jpg>
+Package pdftex.def Info: chapter_3/images/h2.jpg used on input line 153.
+(pdftex.def)             Requested size: 328.82707pt x 204.46684pt.
+ [10 <./chapter_3/images/h2.jpg>]
+<chapter_3/images/hyb.png, id=61, 613.29124pt x 263.98625pt>
+File: chapter_3/images/hyb.png Graphic file (type png)
+
+<use chapter_3/images/hyb.png>
+Package pdftex.def Info: chapter_3/images/hyb.png used on input line 168.
+(pdftex.def)             Requested size: 375.80544pt x 161.76448pt.
+
+<chapter_3/images/spec.png, id=62, 410.4936pt x 544.1931pt>
+File: chapter_3/images/spec.png Graphic file (type png)
+
+<use chapter_3/images/spec.png>
+Package pdftex.def Info: chapter_3/images/spec.png used on input line 178.
+(pdftex.def)             Requested size: 211.38832pt x 280.2418pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<chapter_3/images/pdep.png, id=63, 414.8298pt x 414.8298pt>
+File: chapter_3/images/pdep.png Graphic file (type png)
+
+<use chapter_3/images/pdep.png>
+Package pdftex.def Info: chapter_3/images/pdep.png used on input line 193.
+(pdftex.def)             Requested size: 211.38832pt x 211.38316pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation `grundmann1997theory' on page 11 undefined on input lin
+e 201.
+
+
+LaTeX Warning: Citation `bayer2002fine' on page 11 undefined on input line 203.
+
+
+
+LaTeX Warning: Citation `gammon1996fine' on page 11 undefined on input line 203
+.
+
+<chapter_3/images/stability.png, id=64, 449.5194pt x 449.0376pt>
+File: chapter_3/images/stability.png Graphic file (type png)
+
+<use chapter_3/images/stability.png>
+Package pdftex.def Info: chapter_3/images/stability.png used on input line 206.
+
+(pdftex.def)             Requested size: 211.38832pt x 211.15732pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[11 <./chapter_3/images/hyb.png>]
+<chapter_3/images/g2_pulse.png, id=69, 443.7378pt x 541.0614pt>
+File: chapter_3/images/g2_pulse.png Graphic file (type png)
+
+<use chapter_3/images/g2_pulse.png>
+Package pdftex.def Info: chapter_3/images/g2_pulse.png used on input line 227.
+(pdftex.def)             Requested size: 230.18253pt x 280.6683pt.
+
+<chapter_3/images/g2_cw.png, id=70, 443.7378pt x 541.0614pt>
+File: chapter_3/images/g2_cw.png Graphic file (type png)
+
+<use chapter_3/images/g2_cw.png>
+Package pdftex.def Info: chapter_3/images/g2_cw.png used on input line 229.
+(pdftex.def)             Requested size: 230.18253pt x 280.6683pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<chapter_3/images/dj_oneport.png, id=71, 559.3698pt x 416.9979pt>
+File: chapter_3/images/dj_oneport.png Graphic file (type png)
+
+<use chapter_3/images/dj_oneport.png>
+Package pdftex.def Info: chapter_3/images/dj_oneport.png used on input line 243
+.
+(pdftex.def)             Requested size: 281.85587pt x 210.12096pt.
+ [12 <./chapter_3/images/spec.png>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[13 <./chapter_3/images/pdep.png> <./chapter_3/images/stability.png>]
+
+LaTeX Warning: Citation `jones1941new' on page 14 undefined on input line 259.
+
+
+LaTeX Warning: Citation `matthews2009manipulation' on page 14 undefined on inpu
+t line 260.
+
+
+LaTeX Warning: Citation `juska2013towards' on page 14 undefined on input line 2
+66.
+
+) [14 <./chapter_3/images/g2_pulse.png> <./chapter_3/images/g2_cw.png>]
+(./thesis.bbl [15 <./chapter_3/images/dj_oneport.png>] [16
+
+] [17]) [18]
+(./thesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
- 5728 strings out of 494501
- 97033 string characters out of 6167029
- 176816 words of memory out of 5000000
- 8909 multiletter control sequences out of 15000+600000
- 17109 words of font info for 59 fonts, out of 8000000 for 9000
+ 5771 strings out of 494501
+ 98030 string characters out of 6167029
+ 177816 words of memory out of 5000000
+ 8947 multiletter control sequences out of 15000+600000
+ 18868 words of font info for 65 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
- 38i,6n,44p,399b,337s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,7n,44p,450b,378s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx1
 0.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/local/texlive/2015basic/texmf-dist/fonts/type1/public/amsfonts/
@@ -473,10 +578,10 @@ type1/public/amsfonts/cm/cmsl12.pfb></usr/local/texlive/2015basic/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015basic/texmf-dis
 t/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015basic/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (20 pages, 551110 bytes).
+Output written on thesis.pdf (19 pages, 2470712 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
+ 144 PDF objects out of 1000 (max. 8388607)
+ 84 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 41 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

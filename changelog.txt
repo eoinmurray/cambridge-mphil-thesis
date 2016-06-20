@@ -1,0 +1,115 @@
+## Add more detail to the captions, and make them independent of the text
+
+Figure 1.1:
+
+Electronic structure of a quantum dot. (a) An exciton e-h pair. (b)
+A biexciton with two e-h pairs. (c) An exciton with an extra hole making a
+positively charged exciton.
+
+Electronic structure of a quantum dot. (a) An exciton e-h
+pair. (b) A biexciton with two e-h pairs. (c) An exciton with an extra hole
+making a positively charged exciton.
+
+Figure 1.2
+
+Single photon emission process in a quantum dot.
+
+A single photon emission process in a quantum dot. A photon (\gamma in the
+image) excites an electron from the Valence band to the Conduction band, this
+creates an exciton. This exciton can relax into the quantum dot and after some
+time $\tau$ it will recombine and emit another photon. Since the quantum dot
+energy leves are discrete, and only accept a fixed number of carriers and after
+photon emission there is a finite time which must pass before more carriers can
+be captured, true single photon emission is possible.
+
+Figure 1.3
+
+Light ray propagation in a planar dielectric waveguide.
+
+Light ray propagation in a planar dielectric waveguide. The unguided ray
+impinges on the boundary at angle larger than $\theta_c$ and therefore some of
+the light refracts, losing power at each reflection causing the ray to gradually
+disappear. The guided ray impinges at an angle less than $\theta_c$ and reflects
+fully propagating long the core without any loss of power.
+
+Figure 1.4
+
+Graphical solution of Equation \ref{eqn:trans}. The black line is the
+LHS of the equation and the red line is the RHS. Each LHS segment corresponds to
+a mode in the waveguide.
+
+Figure 1.5
+
+Graphical solution of Equation \ref{eqn:trans}. The black line is the
+LHS of the equation and the red line is the RHS. Each LHS segment corresponds to
+a mode in the waveguide.
+
+Graphical solution of to the transcendental equation \ref{eqn:trans}. The black line is the
+LHS of the equation and the red line is the RHS. Each LHS segment corresponds to
+a mode in the waveguide.
+
+Figure 1.7
+
+Example NOON state sensor using a single photon source and a photonic circuit.
+In this case the temperature of the heater is being sensed.
+
+A single photon is emitted and impinges on the 50:50 beamsplitter, where one is
+delayed. The two photons will then interfere at the first DC, generating a NOON
+state. The state travels down paths 1 and 2, gathering a phase due to the
+presence of the heater on path 1. The phase of the MZI, and thus the temperature
+of the heater, can be determined accurately from analysing how output
+coincidences change with temperature.
+
+Figure 2.1
+
+Schematic of waveguide characterisation experiment.
+
+Schematic of waveguide characterisation experiment. Two PM V-groove arrays are
+aligned to the side  of the waveguide chip. One of the V-groove channels injects
+laser light into port 1. The light is split by the DC and then collected from
+port 3 and 4 by another (generally multimode) V-groove array and sent to a power
+meter. The power ratios of of port 3 and 4 are used to calculate the coupling
+ratio of the DC.
+
+Figure 2.3
+
+Typical micro-Photoluminescence setup to excite the QD sample with a laser and
+collect the QD light. The orange light is the laser and the red light is the
+path the QD light takes.
+
+Typical micro-Photoluminescence setup to excite the QD sample with a laser and
+collect the QD light. The orange light is the laser and the red light is the
+path the QD light takes. The QD light travels in free space through two 92/8
+beamsplitters, with 92\% transmission. With the two beamsplitters, the laser,
+LED and CCD elements can be placed in the optical path of the QD light, while
+minimising the amount of QD light lost. The QD light is collected by a  fibre
+coupled collimator and sent to a silicon charged coupled device (liquid nitrogen
+cooled) equipped spectrometer.
+
+Figure 2.5
+
+Schematic of a hybrid device. A III-V chip with embedded quantum dots is bonded
+to an SiON waveguide chip such that the single photons from the QDs are routed
+through the waveguides.
+
+Schematic of a hybrid device. A III-V chip with embedded quantum dots is bonded
+to an SiON waveguide chip such that the single photons from the QDs are routed
+through the waveguides. The other end of the waveguide is bonded to a V-groove
+array to collect the light and send it to a spectrometer.
+
+Figure 2.6
+
+Schematic of HBT experiment taking place on the Hybrid chip.
+
+Schematic of HBT experiment taking place on the Hybrid chip. The light from
+ports 1 and 2 of the hybrid chip is collected by the V-groove array and sent
+towards transmission gratings in order to spectrally isolate the QD light.  The
+light in both channels then impinge on APDs. The APD clicks are then correlated
+on a timeing card.
+
+## Check with Toshiba the possibility that I can add more details to the axis
+## graphs (changing to arbitrary units to an actual count rate).
+
+I have spoken to David Ellis and Toshiba will not allow me to include count rates.
+
+- Add a few more fundamental references (things like HBT).

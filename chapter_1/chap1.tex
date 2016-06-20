@@ -24,16 +24,16 @@ integrate these components on with a quantum light source.
 
 \section{Introduction to Quantum dots}
 
-Semiconductor quantum dots (QDs) are islands of material of a certain material
+Semiconductor quantum dots (QDs) are islands of a certain material
 surrounded by a material of a higher band gap. The QD region is a three
-dimensional structure which confines carriers in zero dimensions. This
+dimensional structure which confines carriers in all dimensions, giving carries freedom to move in zero dimensions. This
 confinement gives rise to discrete energy levels inside the QD.
 
 Normally a QD will confine two electron levels and two hole levels, more may be
 accommodated in a larger QD. Each level will only confine two carriers due to the
 Pauli exclusion principle. Figure \ref{fig:estructure} shows the electronic
 structure of a QD. An electron excited to the conduction band leave a hole in
-the valence band and ins referred to as an e-h pair. An e-h pair confined in the
+the valence band and is referred to as an e-h pair. An e-h pair confined in the
 QD is referred to as an exciton, two e-h pairs is a biexciton. When there is an
 imbalance in the number of electrons and holes a charged exciton is created.
 Electron-hole pairs can be excited into the quantum dot by numerous methods -
@@ -44,9 +44,11 @@ potentials, the lowest energy of which is typically the QD.
 
 \begin{figure}[h!] \begin{center}
 \includegraphics[width=1\textwidth]{images/estructure.pdf} \end{center}
-\caption{Electronic structure of a quantum dot. (a) An exciton e-h pair. (b) A
-biexciton with two e-h pairs. (c) An exciton with an extra hole making a
-positively charged exciton.} \label{fig:estructure} \end{figure}
+\caption{
+Electronic structure of a quantum dot. (a) An e-h pair is referred to as an
+exciton. (b) Two e-h pairs is referred to as a biexciton. (c) An exciton with an
+extra hole (electron) is a positively (negatively) charged exciton.
+} \label{fig:estructure} \end{figure}
 
 The discrete energy levels in the QD give rise to clean, sharp emission lines.
 There is a well defined energy for each transition and as such the emitted
@@ -63,33 +65,40 @@ excitonic state.
 
 \begin{figure}[h!] \begin{center}
 \includegraphics[width=1\textwidth]{images/qd_photon.pdf} \end{center}
-\caption{Single photon emission process in a quantum dot.} \label{fig:qd_photon}
+\caption{ A single photon emission process in a quantum dot. A photon ($\gamma$ in the
+image) excites an electron from the Valence band to the Conduction band, this
+creates an exciton. This exciton can relax into the quantum dot and after some
+time $\tau$ it will recombine and emit another photon. Since the quantum dot
+energy leves are discrete, and only accept a fixed number of carriers and after
+photon emission there is a finite time which must pass before more carriers can
+be captured, true single photon emission is possible.
+} \label{fig:qd_photon}
 \end{figure}
 
-For a light source with Poissonian emission statistics such as a laser true
+For a light source with Poissonian emission statistics such as a laser, true
 single photon emission can not be achieved even with significant attenuation
 because the probability for multi photon emission still exists. In the case of a
-quantum dot since each excitonic energy level can only accept a fixed number of
+quantum dot, since each excitonic energy level can only accept a fixed number of
 carriers and after photon emission there is a finite time which must pass before
-more carriers can be captured true single photon emission is possible. This
+more carriers can be captured, true single photon emission is possible. This
 process is shown schematically in Figure \ref{fig:qd_photon}. This single photon
 emission can be verified by measuring the two photon second order correlation
 function \begin{equation} g^{(2)}(\tau) = \frac{\left\langle I(t)I(t+\tau)
 \right\rangle}{\left\langle I(t) \right\rangle \left\langle I(t+\tau)
-\right\rangle} \end{equation} This is done by doing a Hanbury Brown Twiss
+\right\rangle} \end{equation} This is achieved by doing a Hanbury Brown Twiss
 measurement \cite{brown1956test}. A stream of single photons impinge on a 50:50 beamsplitter. The two
 outputs of the beamsplitters are sent to single photon detectors. One of the
 detector signals is delayed by a time $\tau$ in order to measure both positive
 and negative correlation times. If the source is a true single photon source
 there will be a lack of coincidence clicks on both detectors when $\tau = 0$,
 and thus $g^{(2)}(0)$ will be zero. Single photon emission from QDs has been
-demonstrated under a wide range of excitation conditions - DC and AC electrical
-excitation, continuos wave (cw) and pulsed lasers at above band, quasi-resonant
-and resonant energies.
+demonstrated under a wide range of excitation conditions: electrical (DC and AC)
+and optical (continuous wave (cw) and pulsed lasers at above band,
+quasi-resonant and resonant regimes).
 
 \section{Semiconductor waveguides}
 
-A dielectric waveguide is a core material surrounded by a material of lower
+A dielectric waveguide consists of a core material surrounded by a second material of lower
 refractive index. The surrounding material is known as the waveguide cladding.
 Here the theory is set out as in Integrated Photonics by Saleh and Teich
 \cite{saleh1991fundamentals}. As an introduction to the design of waveguides in
@@ -103,29 +112,35 @@ reflection of light is derived from Snells law to be
 
 When light impinges on the boundary of $n_1$ and $n_2$ with an angle less than
 $\theta_c$ then it is reflected. Figure \ref{fig:planar_reflection} shows a
-guided and unguided ray of light. The unguided ray hits the boundary with an
+guided and an unguided ray of light. The unguided ray hits the boundary with an
 angle greater than $\theta_c$ and therefore some of the light refracts,
-therefore losing some of the light at each reflection causing the ray to
+losing some of the light at each reflection causing the ray to
 eventually vanish. The guided ray hits the boundary at an angle less than
 $\theta_c$ and reflects without any loss of power and will propagate along the
 core.
 
 \begin{figure}[h!] \begin{center}
 \includegraphics[width=0.8\textwidth]{images/thesis_planar_reflection.pdf}
-\end{center} \caption{Light ray propagation in a planar dielectric waveguide.}
+\end{center} \caption{
+Light ray propagation in a planar dielectric waveguide. The unguided ray
+impinges on the boundary at angle larger than $\theta_c$ and therefore some of
+the light refracts, losing power at each reflection causing the ray to gradually
+disappear. The guided ray impinges at an angle less than $\theta_c$ and reflects
+fully propagating long the core without any loss of power.
+}
 \label{fig:planar_reflection} \end{figure}
 
 To understand the waveguide modes in the structure assume there is a transverse
 electromagnetic (TEM) plane wave propagating in the waveguide core. This TEM
 wave has a wavelength $\lambda = \lambda_0/n_1$ where $\lambda_0$ is the free
-space wavelength. The wave is reflecting each time at the boundary with an angle
+space wavelength. The wave is reflected each time at the boundary with an angle
 less than $\theta_c$ so the wave propagates in the core without loss of power.
 With each reflection the wave lags behind the original by a distance
 $2d\sin{\theta}$ \cite{saleh1991fundamentals}. There is also a phase $\phi_r$
 change induced by each internal reflection. There is now a self-consistency
 condition imposed upon the reflected wave. As the wave reflects twice it
 reproduces itself, waves which satisfy this condition are known as eigenmodes,
-or modes of the waveguide. The wave interferes with itself a pattern is created
+or modes of the waveguide. The wave interferes with itself and a pattern is created
 which does not change with $\hat{z}$. Due to this self-consistency the phase
 shift between the waves is zero or a multiple of $2\pi$, giving rise to the
 condition
@@ -147,7 +162,7 @@ m \frac{\pi}{2} \right) = \sqrt{\frac{\sin^2\theta_c}{\sin^2\theta} - 1}
 
 \begin{figure}[h!] \begin{center}
 \includegraphics[width=0.8\textwidth]{images/mode.pdf} \end{center}
-\caption{Graphical solution of Equation \ref{eqn:trans}. The black line is the
+\caption{Graphical solution of to the transcendental equation \ref{eqn:trans}. The black line is the
 LHS of the equation and the red line is the RHS. Each LHS segment corresponds to
 a mode in the waveguide.} \label{fig:mode} \end{figure}
 
@@ -174,7 +189,7 @@ into Equation \ref{eqn:nummodes} it is seen that
 where
 
 \begin{equation} \mathrm{NA} = \sqrt{n_1^2-n_2^2} \end{equation} is the
-numerical aperture of the waveguide. The $\mathrm{NA}$ defines the range of
+numerical aperture (NA) of the waveguide. The $\mathrm{NA}$ defines the range of
 angle from which the waveguide can collect light. Equation \label{eqn:nummodes}
 is extremely important in waveguide design because it defines the single-mode
 cutoff for when $M \leq 1$. This impacts the choice of $d$ and the wavelength
@@ -183,7 +198,7 @@ generally more useful for quantum optics because they allow two photon
 interference between light coming in from two single mode channels, this allows
 the operation of directional couplers and Mach Zehnder interferometers. Single
 mode optical fibres have lower loss in the telecommunications wavelength ranges
-so is better suited to long distance communication.
+and so is better suited to long distance communication.
 
 \subsection{Two dimensional waveguides}
 
@@ -194,7 +209,7 @@ The light is confined in $\hat{x}$ and $\hat{y}$ but is free to propagate in the
 $\hat{z}$ direction.} \label{fig:2dwg} \end{figure}
 
 A two dimensional dielectric waveguide is one which confines light along two
-axes and allows the light to free  propagate along the third axis. A schematic
+axes and allows the light to propagate freely along the third axis. A schematic
 of a rectangular waveguide is shown in Figure \ref{fig:2dwg}. The modes and
 number of modes can be derived in a similar fashion as for the planar dielectric
 waveguide and shall just be quoted here \cite{saleh1991fundamentals}. The number
@@ -232,7 +247,7 @@ Where $z$ is the propagation direction and $c$ is the coupling coefficient
 related to the index contrast of the waveguide, the separation $d$ between the
 waveguides in the interaction region and the operating wavelength.
 
-A Mach Zehnder interferometer (MZI) is a sequence of two DCs in parallel. The
+A Mach Zehnder interferometer (MZI) is a sequence of two DCs in series. The
 light splits 50/50 into two arms by the first DC. On one of the arms is a local
 refractive index changing element, this can be a electrode to take advantage of
 the electro-optic effect or heater, for the thermo-optic effect. Here it shall
@@ -251,15 +266,15 @@ own. However this thesis focuses on the combination of these technologies to
 create a platform capable of making working integrated quantum devices in the
 future.
 
-In the approach of these thesis laid out in Chapter 2 and 3, we attach a QD
-filled GaAs chip to the end of a SiON based photonic circuit. This approach
+In Chapter 2 and 3, we attach a QD
+filled GaAs chip to the end of a silicon oxynitride (hereafter SiON) based photonic circuit. This approach
 allows us to make custom designed photonic circuits, which are fabricated
 separately from the QD quantum light source. The circuits are made up of a
 series of MZI's. This thesis focuses on the initial fabrication and
 demonstration of the platform. In the next phase of research there are many
 target circuits which are interesting for quantum telecommunications which have
 been demonstrated with QD's with bulk optics, but not yet reproduced on an
-integrated device. CNOT gates\cite{pooley2012controlled}, quantum relays'
+integrated device. Theses include CNOT (controlled NOT) gates\cite{pooley2012controlled}, quantum relays'
 \cite{varnava2015entangled}, quantum amplifiers \cite{kocsis2013heralded,
 zavatta2011high}, NOON state generation \cite{bennett2015cavity, afek2010high, giovannetti2011advances} and various
 combiners and splitters.
@@ -267,7 +282,7 @@ combiners and splitters.
 \subsection{NOON states and quantum sensing}
 
 This section will describe a useful application of quantum sources and quantum
-circuits, generating a NOON state. The dynamics of a NOON state as it passes
+circuits: generating a NOON state. The dynamics of a NOON state as it passes
 through a MZI allow it to be super sensitive to phase changes in the MZI \cite{afek2010high, PhysRevLett.107.083601}. A NOON
 state is a many particle quantum entangled state represented as:
 
@@ -288,7 +303,7 @@ detection probabilities of the MZI output arms to change.
 The probabilities become $P_1 = 1 + \cos{\Delta \phi}$ and $P_2 = 1 +
 \sin{\Delta \phi}$.
 
-Where the subscript indicates the path mode as in Fig \ref{fig:wg_devices}. This interference is generalised by Hong-Ou-Mandel interference
+where the subscript indicates the path mode as in Fig \ref{fig:wg_devices}. This interference is generalised by Hong-Ou-Mandel interference
 \cite{hong1987measurement} for multiple photons. The biphoton state must then be
 represented by a path entangled state:
 
@@ -300,11 +315,11 @@ In this case the oscillation of the detection probabilities depending on phase
 is twice as fast. $P_{1} = 1 + \cos{2 \Delta \phi}$ and $P_{2} = 1 +
 \sin{2 \Delta \phi}$.
 
-This path encoded biphoton state is the same a two particle NOON state. It is
-seen that the phase modulation increases linearly with the number of particles
-in the state $N\Delta \phi$. This would allow smaller phase changes to be
-detected faster by some quantum sensor, this is known as superresolution.
+This path encoded biphoton state is the same a two particle NOON state.
 
+It is seen that the phase modulation increases linearly with the number of
+particles in the state $N\Delta \phi$. This would allow smaller phase changes to
+be detected faster by some quantum sensor, this is known as superresolution.
 It can also be seen that the error in the phase measurement becomes smaller for
 larger $N$. Consider the observable
 
@@ -321,14 +336,20 @@ supersensitivity.
 
 \begin{figure}[h!] \begin{center}
 \includegraphics[width=0.8\textwidth]{images/noon.pdf} \end{center}
-\caption{Example NOON state sensor using a single photon source and a photonic circuit. In this case
-the temperature of the heater is being sensed.} \label{fig:noon-chip} \end{figure}
+\caption{
+A single photon is emitted and impinges on the 50:50 beamsplitter, where one is
+delayed. The two photons will then interfere at the first DC, generating a NOON
+state. The state travels down paths 1 and 2, gathering a phase due to the
+presence of the heater on path 1. The phase of the MZI, and thus the temperature
+of the heater, can be determined accurately from analysing how output
+coincidences change with temperature.
+} \label{fig:noon-chip} \end{figure}
 
 NOON state super resolution can be achieved experimentally using quantum dots
 and an integrated photonic circuit \cite{bennett2015cavity}, shown schematically
 here in Fig \ref{fig:noon-chip}.
 The photons are generated sequentially from the QD, they are directed to a 50:50
-beamsplitter where one are is delayed. This causes 25\% of the sequential photons
+beamsplitter where one is delayed. This causes 25\% of the sequential photons
 to be time synched in parallel. QDs are resonantly excited in order to achieve
 long coherence times and good two photon interference visibilities. The two photons
 are then sent into a MZI, where they will interfere at the first DC, and generate a
@@ -351,7 +372,7 @@ going down one arm of the MZI, the fluid will have a different refractive index
 depending on its contents. This can be used to sense trace amounts of components
 inside the fluid \cite{crespi2012measuring}.
 
-In this example, the quantum light source and the photonic chip were not integrated. Meaning
+In this example\cite{bennett2015cavity}, the quantum light source and the photonic chip were not integrated. Meaning
 that experimentally this method is fragile and required a lot of manual alignment. If the QD source
 was bonded directly to the photonic circuit, and greater stability would be achieved, and also
 the potential to use this technique in real applications, not just in a lab.

@@ -9,7 +9,7 @@
 \usepackage[section]{placeins}
 \usepackage{afterpage}
 
-\usepackage[top=1in, bottom=1in, inner=1in,outer=1in]{geometry}
+\usepackage[top=1in, bottom=1in, inner=1in, outer=1in]{geometry}
 \usepackage{import}
 \usepackage{dcolumn}
 \usepackage{bm}
@@ -26,6 +26,20 @@
 
 \title{} \titlepic{\subimport{title/}{titlepage.tex}} \author{} \date{}
 \maketitle
+
+\begin{center} \large \textbf{Declaration} \end{center}
+
+This dissertation is the result of my own work and includes nothing which is the
+outcome of work done in collaboration, except as stated in the Acknowledgements
+and specified in the text.
+
+It is not substantially the same as any that I have submitted, or, is being concurrently
+submitted for a degree or diploma or other qualification at the University of Cambridge
+or at any other University or similar institution.
+
+No substantial part of my dissertation has already been submitted, or, is being concurrently
+submitted for a degree or diploma or other qualification at the University of Cambridge
+or at any other University or similar institution.
 
 \begin{center} \large \textbf{Acknowledgements} \end{center}
 
@@ -50,7 +64,7 @@ Quantum dots (QDs) are a developing on-chip source of single photons. This
 project aims to take quantum dots embedded in a III-V material and combine them
 with integrated waveguide components. The InAs QDs are grown in GaAs substrate
 and are bonded to a SiON based waveguide platform. This approach has potential
-for realization of an efficient coupling between the quantum dots and the
+for the realization of an efficient coupling between the quantum dots and the
 waveguides and then on-chip manipulation of the emitted photons. In this report,
 the results thus far will be presented and proposals for future designs will be
 discussed.
@@ -86,10 +100,10 @@ July 2015, Rome, Italy
 
 \newpage \tableofcontents
 
-\subimport{chapter_1/}{chap1.tex}
-%\subimport{chapter_2/}{chap2.tex}
-%\subimport{chapter_3/}{chap3.tex}
-%\subimport{chapter_4/}{chap4.tex}
+% \subimport{chapter_1/}{chap1.tex}
+% \subimport{chapter_2/}{chap2.tex}
+\subimport{chapter_3/}{chap3.tex}
+% \subimport{chapter_4/}{chap4.tex}
 
 \bibliographystyle{unsrt} \bibliography{bibliography}{}
 
