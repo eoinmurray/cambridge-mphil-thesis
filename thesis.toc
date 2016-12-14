@@ -1,0 +1,24 @@
+\contentsline {chapter}{\numberline {1}Introduction and theory.}{6}
+\contentsline {section}{\numberline {1.1}Introduction to Quantum dots}{6}
+\contentsline {subsection}{\numberline {1.1.1}Single photon emission from Quantum dots }{8}
+\contentsline {section}{\numberline {1.2}Semiconductor waveguides}{9}
+\contentsline {subsection}{\numberline {1.2.1}Two dimensional waveguides}{12}
+\contentsline {subsection}{\numberline {1.2.2}Directional couplers and Mach Zehnder interferometers}{13}
+\contentsline {section}{\numberline {1.3}Integrated quantum devices}{14}
+\contentsline {subsection}{\numberline {1.3.1}NOON states and quantum sensing}{15}
+\contentsline {section}{\numberline {1.4}Conclusion}{18}
+\contentsline {chapter}{\numberline {2}Methods and fabrication.}{19}
+\contentsline {section}{\numberline {2.1}Waveguide fabrication and characterisation}{19}
+\contentsline {subsection}{\numberline {2.1.1}Directional coupler ratio measurement}{20}
+\contentsline {subsection}{\numberline {2.1.2}Mach Zehnder interferometer visibility measurement}{22}
+\contentsline {section}{\numberline {2.2}Quantum dot growth and characterisation}{22}
+\contentsline {subsection}{\numberline {2.2.1}Molecular beam epitaxy growth}{22}
+\contentsline {subsection}{\numberline {2.2.2}Optical characterisation of quantum dots.}{24}
+\contentsline {subsection}{\numberline {2.2.3}Hanbury-Brown and Twiss measurements}{25}
+\contentsline {section}{\numberline {2.3}Hybrid device}{26}
+\contentsline {subsection}{\numberline {2.3.1}Characterisation of quantum dots in hybrid circuit.}{27}
+\contentsline {chapter}{\numberline {3}Results}{28}
+\contentsline {section}{\numberline {3.1}Simulations and design}{29}
+\contentsline {section}{\numberline {3.2}Waveguide devices}{30}
+\contentsline {section}{\numberline {3.3}Hybrid integrated devices}{33}
+\contentsline {chapter}{\numberline {4}Future work}{39}

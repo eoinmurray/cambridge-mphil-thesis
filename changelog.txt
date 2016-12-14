@@ -1,20 +1,32 @@
-## Add more detail to the captions, and make them independent of the text
+# Eoin Murray MPhil corrections changelog.
 
-Figure 1.1:
+_21-06-2016_
+
+# Caption improvements
+
+## Figure 1.1
+
+__Previously__
 
 Electronic structure of a quantum dot. (a) An exciton e-h pair. (b)
 A biexciton with two e-h pairs. (c) An exciton with an extra hole making a
 positively charged exciton.
 
-Electronic structure of a quantum dot. (a) An exciton e-h
-pair. (b) A biexciton with two e-h pairs. (c) An exciton with an extra hole
-making a positively charged exciton.
+__Now__
 
-Figure 1.2
+Electronic structure of a quantum dot. (a) An e-h pair is referred to as an
+exciton. (b) Two e-h pairs is referred to as a biexciton. (c) An exciton with an
+extra hole (electron) is a positively (negatively) charged exciton.
+
+## Figure 1.2
+
+__Previously__
 
 Single photon emission process in a quantum dot.
 
-A single photon emission process in a quantum dot. A photon (\gamma in the
+__Now__
+
+A single photon emission process in a quantum dot. A photon ($\gamma$ in the
 image) excites an electron from the Valence band to the Conduction band, this
 creates an exciton. This exciton can relax into the quantum dot and after some
 time $\tau$ it will recombine and emit another photon. Since the quantum dot
@@ -22,9 +34,13 @@ energy leves are discrete, and only accept a fixed number of carriers and after
 photon emission there is a finite time which must pass before more carriers can
 be captured, true single photon emission is possible.
 
-Figure 1.3
+## Figure 1.3
+
+__Previously__
 
 Light ray propagation in a planar dielectric waveguide.
+
+__Now__
 
 Light ray propagation in a planar dielectric waveguide. The unguided ray
 impinges on the boundary at angle larger than $\theta_c$ and therefore some of
@@ -32,26 +48,28 @@ the light refracts, losing power at each reflection causing the ray to gradually
 disappear. The guided ray impinges at an angle less than $\theta_c$ and reflects
 fully propagating long the core without any loss of power.
 
-Figure 1.4
+## Figure 1.4
+
+__Previously__
 
 Graphical solution of Equation \ref{eqn:trans}. The black line is the
 LHS of the equation and the red line is the RHS. Each LHS segment corresponds to
 a mode in the waveguide.
 
-Figure 1.5
-
-Graphical solution of Equation \ref{eqn:trans}. The black line is the
-LHS of the equation and the red line is the RHS. Each LHS segment corresponds to
-a mode in the waveguide.
+__Now__
 
 Graphical solution of to the transcendental equation \ref{eqn:trans}. The black line is the
 LHS of the equation and the red line is the RHS. Each LHS segment corresponds to
 a mode in the waveguide.
 
-Figure 1.7
+## Figure 1.7
+
+__Previously__
 
 Example NOON state sensor using a single photon source and a photonic circuit.
 In this case the temperature of the heater is being sensed.
+
+__Now__
 
 A single photon is emitted and impinges on the 50:50 beamsplitter, where one is
 delayed. The two photons will then interfere at the first DC, generating a NOON
@@ -60,9 +78,13 @@ presence of the heater on path 1. The phase of the MZI, and thus the temperature
 of the heater, can be determined accurately from analysing how output
 coincidences change with temperature.
 
-Figure 2.1
+## Figure 2.1
+
+__Previously__
 
 Schematic of waveguide characterisation experiment.
+
+__Now__
 
 Schematic of waveguide characterisation experiment. Two PM V-groove arrays are
 aligned to the side  of the waveguide chip. One of the V-groove channels injects
@@ -71,35 +93,47 @@ port 3 and 4 by another (generally multimode) V-groove array and sent to a power
 meter. The power ratios of of port 3 and 4 are used to calculate the coupling
 ratio of the DC.
 
-Figure 2.3
+## Figure 2.3
+
+__Previously__
 
 Typical micro-Photoluminescence setup to excite the QD sample with a laser and
 collect the QD light. The orange light is the laser and the red light is the
 path the QD light takes.
 
+__Now__
+
 Typical micro-Photoluminescence setup to excite the QD sample with a laser and
 collect the QD light. The orange light is the laser and the red light is the
 path the QD light takes. The QD light travels in free space through two 92/8
-beamsplitters, with 92\% transmission. With the two beamsplitters, the laser,
+beamsplitters, with 92\% transmission. With the two beamsplitters; the laser,
 LED and CCD elements can be placed in the optical path of the QD light, while
 minimising the amount of QD light lost. The QD light is collected by a  fibre
-coupled collimator and sent to a silicon charged coupled device (liquid nitrogen
-cooled) equipped spectrometer.
+coupled collimator and sent to a spectrometer equipped with a, liquid nitrogen
+cooled, silicon charged coupled device.
 
-Figure 2.5
+## Figure 2.5
+
+__Previously__
 
 Schematic of a hybrid device. A III-V chip with embedded quantum dots is bonded
 to an SiON waveguide chip such that the single photons from the QDs are routed
 through the waveguides.
+
+__Now__
 
 Schematic of a hybrid device. A III-V chip with embedded quantum dots is bonded
 to an SiON waveguide chip such that the single photons from the QDs are routed
 through the waveguides. The other end of the waveguide is bonded to a V-groove
 array to collect the light and send it to a spectrometer.
 
-Figure 2.6
+## Figure 2.6
+
+__Previously__
 
 Schematic of HBT experiment taking place on the Hybrid chip.
+
+__Now__
 
 Schematic of HBT experiment taking place on the Hybrid chip. The light from
 ports 1 and 2 of the hybrid chip is collected by the V-groove array and sent
@@ -107,18 +141,26 @@ towards transmission gratings in order to spectrally isolate the QD light.  The
 light in both channels then impinge on APDs. The APD clicks are then correlated
 on a timing card.
 
-Figure 3.1
+## Figure 3.1
+
+__Previously__
 
 Finite difference time domain simulation of a QD dipole emitting in a cavity and
 the emission being guided by the SiON core.
+
+__Now__
 
 Finite difference time domain simulation of a QD dipole emitting in a cavity and
 the emission being guided by the SiON core. The $\hat{z}$ component of the
 electro-magnetic field is  clearly seen to propagate along the waveguide core.
 
-Figure 3.5
+## Figure 3.5
+
+__Previously__
 
 Photograph of an example bonded device.
+
+__Now__
 
 Photograph of an example bonded device. The III-V chip is bonded orthogonally to
 the  SiON chip (top-right) which is in turn bonded to a six channel V-groove
@@ -126,33 +168,53 @@ array (bottom-left of chip). The nichrome channels allow a phase-varying heating
 current to be applied to the MZ's. The structure is glued to a copper block is
 placed in a cryostat for the duration of experiments.
 
-Figure 3.6
+## Figure 3.6
+
+__Previously__
 
 Schematic of the experiment.
+
+__Now__
 
 Schematic of the experiment. The laser light travels from port 3 (highlighted in
 orange) exciting QDs in the III-V chip. The QD light (path highlighted in red)
 enters a heater tuned MZI. The QD light is collected by V-grooves and sent
 through transmission gratings towards APDs in order to do correlations.
 
-Figure 3.9
+## Figure 3.9
+
+__Previously__
 
 Counts measured as a function of time over 12 hours.
+
+__Now__
 
 Counts measured as a function of time over 12 hours. The hybrid chip is stable
 over long periods of time and needs no drifting correction.
 
-Figure 3.11
+## Figure 3.11
+
+__Previously__
 
 The outputs a MZI arm is shown by the black triangles, the solid black line is a
 fit to the data. The red line is the calculated phase as a function of voltage.
 
+__Now__
+
 The output of a MZI arm is shown by the black triangles, the solid black line is a
 fit to the data. The red line is the calculated phase as a function of voltage.
 
-## Check with Toshiba the possibility that I can add more details to the axis
-## graphs (changing to arbitrary units to an actual count rate).
+# Change units of some graphs
 
-I have spoken to David Ellis and Toshiba will not allow me to include count rates.
+I was to check with Toshiba the possibility that I can add more details to the
+axis graphs (changing to arbitrary units to an actual count rate).I have spoken
+to David Ellis and Toshiba will not allow me to include count rates.
 
-- Add a few more fundamental references (things like HBT).
+# New references
+
+Added original 'Quantum Dot Single-Photon Turnstile Device' citation on page 8.
+
+Added HBT referent to experimental section documenting the HBT experiment, page 26.
+
+Added 'Manipulation of multiphoton entanglement in waveguide quantum circuits' justification for
+waveguide characterisation experiments on page 20.

@@ -2,47 +2,47 @@ This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: thesis.aux
 The style file: unsrt.bst
-I found no \citation commands---while reading file thesis.aux
 Database file #1: bibliography.bib
-You've used 0 entries,
+Warning--I didn't find a database entry for "michler2000quantum"
+You've used 48 entries,
             1791 wiz_defined-function locations,
-            445 strings with 3522 characters,
-and the built_in function-call counts, 18 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 7
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
+            750 strings with 14298 characters,
+and the built_in function-call counts, 13057 in all, are:
+= -- 975
+> -- 988
+< -- 1
++ -- 346
+- -- 298
+* -- 1212
+:= -- 2280
+add.period$ -- 144
+call.type$ -- 48
+change.case$ -- 47
 chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+cite$ -- 48
+duplicate$ -- 427
+empty$ -- 1056
+format.name$ -- 298
+if$ -- 2676
 int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 0
-newline$ -- 3
-num.names$ -- 0
-pop$ -- 0
+int.to.str$ -- 48
+missing$ -- 49
+newline$ -- 243
+num.names$ -- 48
+pop$ -- 61
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1
+skip$ -- 151
 stack$ -- 0
-substring$ -- 0
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 873
+swap$ -- 49
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 0
-width$ -- 0
-write$ -- 2
-(There was 1 error message)
+while$ -- 113
+width$ -- 50
+write$ -- 526
+(There was 1 warning)
